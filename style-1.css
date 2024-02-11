@@ -5,14 +5,14 @@
     padding:0 ;
 }  
 body{
-    background:  url(./image/dune-1748462_1920.jpg) rgba(0,0,0,0.7);
+       background:  url(./image/dune-1748462_1920.jpg) ; 
+    background-color:  rgba(0,0,0,0.5);
 }
 header{
     width: 100vw;
     height: 10vh;
     background-color: transparent;
     position: sticky;
-    background-color: rgba(0,0,0,0.5);
 }
 nav{
     width: 100vw;
@@ -33,8 +33,7 @@ nav a{
 }
 .main-1 {
     width: 100vw;
-height: 80vh;
-background-color: rgba(0,0,0,0.5);
+height: 80vh
 }
 h1 {
     color: white;
@@ -45,22 +44,52 @@ h1 {
      width: 70%;
     height: 35%;
     display: flex;
-
 } 
 .para1 {
     font-family: 'Protest Revolution', sans-serif;
 }
- article {
-    width: 100%;
-    height: 40%;
+ .artick {
+    width: 100vw;
+    height: 20vh;
  display: flex;
-justify-content: space-between;
+ justify-content: center;
  }
-.card > .cart-img {
+ .cart {
+    width: 15vw;
+    height:40vh;
+ }
+ .cart > img {
     width: 100%;
-    height: 100%;
-}
-.card > .cart-img:hover {
-    width: 50%;
-    height: 50%;
-}
+    height: 60%;
+    margin-left: auto;
+        border-radius: 10px;
+        transition: all linear 0.5s;
+ }
+ .cart > img:hover {  
+        transform: scale(1.2)
+ }
+ .cart-1 {
+    width: 15vw;
+    height:40vh;
+
+ }
+ .cart-1 > img {
+    width: 100%;
+    height: 60%;
+        border-radius: 10px;
+            margin-left: 10%;
+        transition: all linear 0.5s;
+ }
+ .cart-1 > img:hover {  
+        transform: scale(1.2)
+ }
+ h3{
+    text-align: center;
+ }
+ .artick-2 {
+    width: 100vw;
+    height: 40vh;
+ display: flex;
+ justify-content: center;  
+ padding-top: 5%;
+ }
